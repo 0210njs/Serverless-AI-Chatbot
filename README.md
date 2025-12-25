@@ -3,7 +3,8 @@
 🔎 Overview
 
       Users interact with the chatbot through a static frontend (S3 / Amplify) or by calling the API directly.
-      Requests are sent via API Gateway to AWS Lambda, which uses an IAM role to securely invoke Amazon Bedrock (Titan Text G1 – Express).
+      Requests are sent via API Gateway to AWS Lambda, which uses an IAM role to securely invoke 
+            Amazon Bedrock (Titan Text G1 – Express).
       Responses are returned back through the same path to the user.
 
       ⚡ Fully serverless, scalable, and secure.
